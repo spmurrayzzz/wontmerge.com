@@ -20,4 +20,4 @@ app.get('/', function(req, res){
     res.render('index.mustache', { image: randomImg, size: size });
 });
 
-app.listen(80);
+app.listen(process.env.PORT || 3000);
