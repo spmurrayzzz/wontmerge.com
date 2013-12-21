@@ -1,3 +1,3 @@
 ## wontmerge.com
 
-For when words just won't do denying a pull request any justice.
+For when words just won't do any justice to denying a pull request.
