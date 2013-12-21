@@ -20,4 +20,4 @@ app.get('/', function(req, res){
     res.render('index.mustache', { image: randomImg, size: size });
 });
 
-app.listen(3000);
+app.listen(80);
