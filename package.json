@@ -1,0 +1,14 @@
+{
+  "name": "wontmerge",
+  "version": "0.1.0",
+  "description": "wontmerge.com",
+  "main": "index.js",
+  "repository": "",
+  "author": "Stephen Murray",
+  "license": "MIT",
+  "devDependencies": {
+    "mustache-express": "~0.2.3",
+    "express": "~3.4.7",
+    "image-size": "~0.1.16"
+  }
+}
