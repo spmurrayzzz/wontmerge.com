@@ -6,9 +6,15 @@
   "repository": "",
   "author": "Stephen Murray",
   "license": "MIT",
-  "devDependencies": {
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
     "mustache-express": "~0.2.3",
     "express": "~3.4.7",
     "image-size": "~0.1.16"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
