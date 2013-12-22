@@ -1,2 +1,16 @@
-.wont{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0;width:100%;}
-.ribbon{border:0;left:0;position:absolute;top:0;}
+.wont {
+  bottom:0;
+  left:0;
+  position:absolute;
+  right:0;
+  top:0;
+  width:100%;
+  margin: 0 auto;
+  display: block;
+}
+.ribbon{
+  border:0;
+  left:0;
+  position:absolute;
+  top:0;
+}
