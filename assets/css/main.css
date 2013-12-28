@@ -1,16 +1,28 @@
-.wont {
-  bottom:0;
-  left:0;
-  position:absolute;
-  right:0;
-  top:0;
-  width:100%;
-  margin: 0 auto;
-  display: block;
+.wont, .opacity {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
 }
-.ribbon{
-  border:0;
-  left:0;
-  position:absolute;
-  top:0;
+
+.wont {
+  margin: auto;
+  position: absolute;
+  z-index: 3;
+}
+
+.opacity {
+  background: rgba(0,0,0,.8);
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.ribbon {
+  border: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 4;
 }
