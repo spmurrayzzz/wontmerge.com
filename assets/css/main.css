@@ -1,3 +1,11 @@
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .wont, .opacity {
   bottom: 0;
   left: 0;
@@ -20,9 +28,41 @@
 }
 
 .ribbon {
-  border: 0;
   left: 0;
   position: absolute;
   top: 0;
   z-index: 4;
+}
+
+.ribbon img {
+  border: 0;
+  display: block;
+}
+
+.fork {
+  display: none;
+}
+
+@media (max-device-width:480px), screen and (max-width:800px) {
+  .fork {
+    color: #fff;
+    display: block;
+    font-family: arial;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .ribbon {
+    background: #800;
+    bottom: 0;
+    left: 0;
+    padding: 8px;
+    text-decoration: none;
+    top: auto;
+    width: 100%;
+  }
+
+  .ribbon img{
+    display: none;
+  }
 }
