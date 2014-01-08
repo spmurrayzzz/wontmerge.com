@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.wont, .opacity {
+.wont-container, .opacity {
   bottom: 0;
   left: 0;
   right: 0;
@@ -14,10 +14,24 @@
   width: 100%;
 }
 
-.wont {
+.wont-container {
+  color: #eee;
+  font-family: arial;
   margin: auto;
   position: absolute;
   z-index: 3;
+}
+
+.wont, .url-container {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+.url-container {
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
 }
 
 .opacity {
@@ -41,6 +55,18 @@
 
 .fork {
   display: none;
+}
+
+.share {
+  background: #4D9ED8;
+  color: #fff;
+  display: block;
+  padding: 4px 0;
+  text-decoration: none;
+}
+
+.share:hover {
+  background: #357bae;
 }
 
 @media (max-device-width:480px), screen and (max-width:800px) {
