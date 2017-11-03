@@ -20,4 +20,11 @@ app.get('/', function(req, res){
     res.render('index.mustache', { image: randomImg, size: size });
 });
 
+app.get('/embed', function(req, res){
+  var rand = Math.round(Math.random() * (images.length - 1)),
+    randomImg = images[rand];
+
+  res.redirect('/assets/img/' + randomImg);
+});
+
 app.listen(process.env.PORT || 3000);
