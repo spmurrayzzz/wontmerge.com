@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "mustache-express": "~0.2.3",
-    "express": "~3.4.7",
+    "express": "~3.21.2",
     "image-size": "~0.1.16"
   },
   "engines": {
